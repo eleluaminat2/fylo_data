@@ -1,0 +1,131 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    background-image: url(images/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-color: hsl(229, 57%, 11%);
+    background-position: 20px;
+    font-family: speci ;
+    height: 70vh; 
+    width: 100%;
+    
+}
+.container{
+    align-items: center;
+    width: 100%;
+}
+.whole{
+    display: flex;
+    position: relative;
+}
+.fylo{
+    background-color: hsl(228, 56%, 26%);
+    border-top-right-radius: 80px;
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+    padding-right: 80px;
+    padding-bottom: 20px;
+}
+.first{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.second{
+    padding-top: 20px;
+    display: flex;
+}   
+.document{
+    padding: 10px;
+    background-color: hsl(229, 57%, 11%);
+    margin: 10px 10px 10px 20px;
+    border-radius: 10px;
+}
+.folder{
+    padding: 10px;
+    background-color: hsl(229, 57%, 11%);
+    margin: 10px;
+    border-radius: 10px;
+}
+.upload{
+    padding: 10px;
+    background-color: hsl(229, 57%, 11%);
+    margin: 10px;
+    border-radius: 10px;
+}
+.gig{
+background-color: hsl(228, 56%, 26%);
+/* margin: 0 0 0 0; */
+border-radius: 5px;
+align-items: flex-end;
+width: 50%;
+margin: 20px 5px 0 20px;
+padding: 10px 0;
+}
+.used{
+    color: hsl(229, 7%, 55%);
+    /* padding: 20px 0 10px 20px;  */
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.left{
+    background-color: white;
+    color: hsl(229, 57%, 11%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 100% 74%, 100% 100%, 73% 76%, 0% 75%);
+    position: absolute;
+    left: 840px;
+    padding: 20px;
+    top: 1px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.gig p span{
+    color: hsl(243, 100%, 93%);
+}
+.big-div{
+    width: 94%;
+    height: 8px;
+    background-color: hsl(229, 57%, 11%);
+    margin-left: 20px;
+    /* padding: 3px; */
+    border-radius: 10px;
+}
+.small-div{
+    width: 85%;
+    height: 8px;
+    /* background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c); */
+    background: linear-gradient(hsl(6, 100%, 80%),hsl(335, 100%, 65%));
+    border-radius: 10px;
+}
+.white{
+    background-color: white;
+    width: 2%;
+    height: 7px;
+    border-radius: 20px;
+    margin-left: 420px;
+} 
+.flex{
+    display: flex;
+    justify-content: space-between;
+    color: hsl(243, 100%, 93%); 
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-weight: small;
+}
+.gb{
+    color:hsl(228, 45%, 44%);
+    font-weight: lighter;
+}
+    .attribution { 
+        margin-top: 20px;
+        font-size: 11px; 
+        text-align: center;
+     }
+    .attribution a {
+         color: hsl(228, 45%, 44%);
+        }
